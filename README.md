@@ -12,7 +12,7 @@ Project consists of a using a Windows VM to run Wireshark and analyze packets su
 
 <h2>Environments Used </h2>
 
-- <b>Windows 10</b> (21H2)
+- <b>Windows 10 (Virtual Machine)</b> 
 
 <h2>Walk-through:</h2>
 
@@ -21,26 +21,48 @@ Scenario: <br/>
 <img src="https://imgur.com/wRoIkHf.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Select the disk:  <br/>
-<img src="https://i.imgur.com/tcTyMUE.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+  
+Packet analysis of a specific destination IP address  <br/>  
+<img src="https://imgur.com/ZJBrZkF.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Enter the number of passes: <br/>
-<img src="https://i.imgur.com/nCIbXbg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Frame information <br/>
+<img src="https://imgur.com/nufQany.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Confirm your selection:  <br/>
-<img src="https://i.imgur.com/cdFHBiU.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Ethernet information  <br/>
+<img src="https://imgur.com/DxLdkgi.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Wait for process to complete (may take some time):  <br/>
-<img src="https://i.imgur.com/JL945Ga.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+IPv4 information  <br/>
+<img src="https://imgur.com/DxLdkgi.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Sanitization complete:  <br/>
-<img src="https://i.imgur.com/K71yaM2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Protocol information (TCP)  <br/>
+<img src="https://imgur.com/k0ILVIG.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Observe the wiped disk:  <br/>
-<img src="https://i.imgur.com/AeZkvFQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
+
+
+UDP 53 DNS Packet  <br/>  
+<img src="https://imgur.com/PfnHdtN.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+Queried opensource.google.com <br/>
+<img src="https://imgur.com/sOaQ7Qt.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+
+<br />
+IP addresses associated with opensources.google.com <br/>
+<img src="https://imgur.com/3ANdtBe.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+TCP packets containing 'curl'  <br/>
+<img src="https://imgur.com/gzAXkJR.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+
+<h2>Summary</h2>
+Using Wireshark, I successfully analyzed specific packets by using filters viewing the subtrees to obtain more detailed information on the packets. 
+
+
