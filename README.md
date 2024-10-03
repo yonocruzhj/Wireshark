@@ -1,4 +1,4 @@
-# Wireshark:Analyzing Packets</h1>
+# Wireshark: Analyzing Packets</h1>
 
 <h2>Description</h2>
 Project consists of a using a Windows VM to run Wireshark and analyze packets such as destination and source IP addresses, IPv4 information, queries, etc. 
