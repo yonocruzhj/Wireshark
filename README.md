@@ -30,11 +30,7 @@ Frame information <br/>
 <img src="https://imgur.com/nufQany.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Ethernet information  <br/>
-<img src="https://imgur.com/DxLdkgi.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-IPv4 information  <br/>
+Ethernet and IPv4  <br/>
 <img src="https://imgur.com/DxLdkgi.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
