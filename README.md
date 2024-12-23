@@ -1,7 +1,7 @@
 # Wireshark: Analyzing Packets</h1>
 
 <h2>Description</h2>
-Project consists of a using a Windows VM to run Wireshark and analyze packets such as destination and source IP addresses, IPv4 information, queries, etc. 
+Project consists of using a Windows to run Wireshark and analyze packets such as destination and source IP addresses, IPv4 information, queries, etc. It covers the setup, capture, and analysis of network data to identify potential security vulnerabilities and optimize network performance. It covers the setup, capture, and analysis of network data to identify potential security vulnerabilities and optimize network performance
 <br />
 
 
@@ -12,7 +12,7 @@ Project consists of a using a Windows VM to run Wireshark and analyze packets su
 
 <h2>Environments Used </h2>
 
-- <b>Windows 10 (Virtual Machine)</b> 
+- <b>Windows 10</b> 
 
 <h2>Walk-through:</h2>
 
@@ -63,6 +63,6 @@ TCP packets containing 'curl'  <br/>
 <br />
 
 <h2>Summary</h2>
-Using Wireshark, I successfully analyzed specific packets by using filters viewing the subtrees to obtain more detailed information on the packets. 
+This project highlights practical skills in network traffic monitoring, analysis, and security assessment using Wireshark. It emphasizes detecting threats, troubleshooting performance issues, and understanding protocols. The hands-on experience reinforces core cybersecurity practices and prepares for advanced network security tasks.
 
 
